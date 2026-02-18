@@ -1,0 +1,114 @@
+============================================================================
+  PRISONER'S DILEMMA SIMULATION
+  Payoff: C,C=(3,3) | C,D=(0,5) | D,C=(5,0) | D,D=(1,1)
+  Nash EQ (stage game): (D,D) — distance measures deviation from it
+============================================================================
+
+  Running: FP vs FP
+  [FP vs FP] Round    200 | AvgR0=0.200 CoopR0=0.00% | AvgR1=0.200 CoopR1=0.00% | NashDist=0.0000
+  [FP vs FP] Round    400 | AvgR0=0.400 CoopR0=0.00% | AvgR1=0.400 CoopR1=0.00% | NashDist=0.0000
+  [FP vs FP] Round    600 | AvgR0=0.600 CoopR0=0.00% | AvgR1=0.600 CoopR1=0.00% | NashDist=0.0000
+  [FP vs FP] Round    800 | AvgR0=0.800 CoopR0=0.00% | AvgR1=0.800 CoopR1=0.00% | NashDist=0.0000
+  [FP vs FP] Round   1000 | AvgR0=1.000 CoopR0=0.00% | AvgR1=1.000 CoopR1=0.00% | NashDist=0.0000
+
+  Running: IQL vs IQL
+  [IQL vs IQL] Round    200 | AvgR0=0.380 CoopR0=47.50% | AvgR1=0.465 CoopR1=39.00% | NashDist=0.6146
+  [IQL vs IQL] Round    400 | AvgR0=0.552 CoopR0=49.00% | AvgR1=1.037 CoopR1=24.75% | NashDist=0.5490
+  [IQL vs IQL] Round    600 | AvgR0=0.727 CoopR0=41.17% | AvgR1=1.432 CoopR1=17.67% | NashDist=0.4480
+  [IQL vs IQL] Round    800 | AvgR0=1.038 CoopR0=35.25% | AvgR1=1.733 CoopR1=17.88% | NashDist=0.3952
+  [IQL vs IQL] Round   1000 | AvgR0=1.441 CoopR0=34.90% | AvgR1=2.131 CoopR1=21.10% | NashDist=0.4078
+
+  Running: MINIMAX vs MINIMAX
+  [MINIMAX vs MINIMAX] Round    200 | AvgR0=0.481 CoopR0=55.50% | AvgR1=0.456 CoopR1=58.00% | NashDist=0.8028
+  [MINIMAX vs MINIMAX] Round    400 | AvgR0=1.054 CoopR0=69.25% | AvgR1=0.999 CoopR1=72.00% | NashDist=0.9990
+  [MINIMAX vs MINIMAX] Round    600 | AvgR0=1.621 CoopR0=77.17% | AvgR1=1.586 CoopR1=78.33% | NashDist=1.0996
+  [MINIMAX vs MINIMAX] Round    800 | AvgR0=2.224 CoopR0=81.75% | AvgR1=2.169 CoopR1=83.12% | NashDist=1.1659
+  [MINIMAX vs MINIMAX] Round   1000 | AvgR0=2.826 CoopR0=84.70% | AvgR1=2.756 CoopR1=86.10% | NashDist=1.2078
+
+  Running: IQL vs FP
+  [IQL vs FP] Round    200 | AvgR0=0.137 CoopR0=31.50% | AvgR1=0.452 CoopR1=0.00% | NashDist=0.3150
+  [IQL vs FP] Round    400 | AvgR0=0.314 CoopR0=21.50% | AvgR1=0.744 CoopR1=0.00% | NashDist=0.2150
+  [IQL vs FP] Round    600 | AvgR0=0.508 CoopR0=15.33% | AvgR1=0.968 CoopR1=0.00% | NashDist=0.1533
+  [IQL vs FP] Round    800 | AvgR0=0.703 CoopR0=12.12% | AvgR1=1.188 CoopR1=0.00% | NashDist=0.1212
+  [IQL vs FP] Round   1000 | AvgR0=0.895 CoopR0=10.50% | AvgR1=1.420 CoopR1=0.00% | NashDist=0.1050
+
+  Running: MINIMAX vs FP
+  [MINIMAX vs FP] Round    200 | AvgR0=0.066 CoopR0=67.00% | AvgR1=0.736 CoopR1=0.00% | NashDist=0.6700
+  [MINIMAX vs FP] Round    400 | AvgR0=0.089 CoopR0=77.75% | AvgR1=1.644 CoopR1=0.00% | NashDist=0.7775
+  [MINIMAX vs FP] Round    600 | AvgR0=0.095 CoopR0=84.17% | AvgR1=2.620 CoopR1=0.00% | NashDist=0.8417
+  [MINIMAX vs FP] Round    800 | AvgR0=0.097 CoopR0=87.88% | AvgR1=3.612 CoopR1=0.00% | NashDist=0.8788
+  [MINIMAX vs FP] Round   1000 | AvgR0=0.105 CoopR0=89.50% | AvgR1=4.580 CoopR1=0.00% | NashDist=0.8950
+
+  Running: IQL vs MINIMAX
+  [IQL vs MINIMAX] Round    200 | AvgR0=0.544 CoopR0=35.00% | AvgR1=0.329 CoopR1=56.50% | NashDist=0.6646
+  [IQL vs MINIMAX] Round    400 | AvgR0=1.126 CoopR0=22.00% | AvgR1=0.491 CoopR1=53.75% | NashDist=0.5808
+  [IQL vs MINIMAX] Round    600 | AvgR0=1.745 CoopR0=16.17% | AvgR1=0.615 CoopR1=53.83% | NashDist=0.5621
+  [IQL vs MINIMAX] Round    800 | AvgR0=2.319 CoopR0=12.25% | AvgR1=0.724 CoopR1=52.12% | NashDist=0.5355
+  [IQL vs MINIMAX] Round   1000 | AvgR0=2.918 CoopR0=10.40% | AvgR1=0.843 CoopR1=51.90% | NashDist=0.5293
+
+============================================================================
+  PRISONER'S DILEMMA — SIMULATION REPORT
+============================================================================
+  Rounds: 1000 | α=0.1, γ=0.9, ε₀=1.0→0.05 (decay=0.995)
+  Nash EQ: both Defect (D,D) → payoff (1,1). Distance = Euclidean to (p_defect=1, p_defect=1).
+============================================================================
+
+  ┌─ Matchup: FP vs FP
+  │  Agent0 (FP(id=0)) → Avg=1.000, Coop=0.00%
+  │  Agent1 (FP(id=1)) → Avg=1.000, Coop=0.00%
+  │  Mutual Coop=0.00%  Mutual Defect=100.00%  Exploit 0→1=0.00%  Exploit 1→0=0.00%
+  │  Nash Distance (overall) : 0.0000
+  │  Nash Distance (tail 20%): 0.0000  → Converged to Nash EQ
+  └  p_defect: Agent0=1.000, Agent1=1.000  (Nash target: 1.000, 1.000)
+
+  ┌─ Matchup: IQL vs IQL
+  │  Agent0 (IQL(id=0)) → Avg=1.441, Coop=34.90%
+  │  Agent1 (IQL(id=1)) → Avg=2.131, Coop=21.10%
+  │  Mutual Coop=5.40%  Mutual Defect=49.40%  Exploit 0→1=15.70%  Exploit 1→0=29.50%
+  │  Nash Distance (overall) : 0.4078
+  │  Nash Distance (tail 20%): 0.4773  → Partial cooperation persists
+  └  p_defect: Agent0=0.651, Agent1=0.789  (Nash target: 1.000, 1.000)
+
+  ┌─ Matchup: MINIMAX vs MINIMAX
+  │  Agent0 (MiniMaxQ(id=0)) → Avg=2.826, Coop=84.70%
+  │  Agent1 (MiniMaxQ(id=1)) → Avg=2.756, Coop=86.10%
+  │  Mutual Coop=77.10%  Mutual Defect=6.30%  Exploit 0→1=9.00%  Exploit 1→0=7.60%
+  │  Nash Distance (overall) : 1.2078
+  │  Nash Distance (tail 20%): 1.3754  → Far from Nash — significant cooperation
+  └  p_defect: Agent0=0.153, Agent1=0.139  (Nash target: 1.000, 1.000)
+
+  ┌─ Matchup: IQL vs FP
+  │  Agent0 (IQL(id=0)) → Avg=0.895, Coop=10.50%
+  │  Agent1 (FP(id=1)) → Avg=1.420, Coop=0.00%
+  │  Mutual Coop=0.00%  Mutual Defect=89.50%  Exploit 0→1=0.00%  Exploit 1→0=10.50%
+  │  Nash Distance (overall) : 0.1050
+  │  Nash Distance (tail 20%): 0.0400  → Converged to Nash EQ
+  └  p_defect: Agent0=0.895, Agent1=1.000  (Nash target: 1.000, 1.000)
+
+  ┌─ Matchup: MINIMAX vs FP
+  │  Agent0 (MiniMaxQ(id=0)) → Avg=0.105, Coop=89.50%
+  │  Agent1 (FP(id=1)) → Avg=4.580, Coop=0.00%
+  │  Mutual Coop=0.00%  Mutual Defect=10.50%  Exploit 0→1=0.00%  Exploit 1→0=89.50%
+  │  Nash Distance (overall) : 0.8950
+  │  Nash Distance (tail 20%): 0.9600  → Far from Nash — significant cooperation
+  └  p_defect: Agent0=0.105, Agent1=1.000  (Nash target: 1.000, 1.000)
+
+  ┌─ Matchup: IQL vs MINIMAX
+  │  Agent0 (IQL(id=0)) → Avg=2.918, Coop=10.40%
+  │  Agent1 (MiniMaxQ(id=1)) → Avg=0.843, Coop=51.90%
+  │  Mutual Coop=5.40%  Mutual Defect=43.10%  Exploit 0→1=46.50%  Exploit 1→0=5.00%
+  │  Nash Distance (overall) : 0.5293
+  │  Nash Distance (tail 20%): 0.5109  → Partial cooperation persists
+  └  p_defect: Agent0=0.896, Agent1=0.481  (Nash target: 1.000, 1.000)
+
+============================================================================
+
+
+  CONVERGENCE ANALYSIS (last 20% of rounds)
+  ----------------------------------------------------------------------
+  FP vs FP               | CoopR0=0.00% CoopR1=0.00% | MutualC=0.00% MutualD=100.00% | NashDist=0.0000
+  IQL vs IQL             | CoopR0=33.50% CoopR1=34.00% | MutualC=1.00% MutualD=33.50% | NashDist=0.4773
+  MINIMAX vs MINIMAX     | CoopR0=96.50% CoopR1=98.00% | MutualC=94.50% MutualD=0.00% | NashDist=1.3754
+  IQL vs FP              | CoopR0=4.00% CoopR1=0.00% | MutualC=0.00% MutualD=96.00% | NashDist=0.0400
+  MINIMAX vs FP          | CoopR0=96.00% CoopR1=0.00% | MutualC=0.00% MutualD=4.00% | NashDist=0.9600
+  IQL vs MINIMAX         | CoopR0=3.00% CoopR1=51.00% | MutualC=1.50% MutualD=47.50% | NashDist=0.5109
