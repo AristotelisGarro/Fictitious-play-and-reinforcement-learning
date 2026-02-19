@@ -1,0 +1,124 @@
+==============================================================================
+  MATCHING PENNIES — ZERO-SUM SIMULATION
+  Agent0 = Matcher   wins on (H,H) or (T,T)
+  Agent1 = Mismatcher wins on (H,T) or (T,H)
+  Nash EQ: both randomise 50/50  →  avg reward = 0 for both
+==============================================================================
+
+  Running: FP vs FP
+  [FP vs FP] Round    300 | WR0=51.00%  WR1=49.00% | p(H)0=0.490  p(H)1=0.527 | NashDist=0.0285
+  [FP vs FP] Round    600 | WR0=50.33%  WR1=49.67% | p(H)0=0.510  p(H)1=0.480 | NashDist=0.0224
+  [FP vs FP] Round    900 | WR0=49.67%  WR1=50.33% | p(H)0=0.514  p(H)1=0.491 | NashDist=0.0170
+  [FP vs FP] Round   1200 | WR0=50.67%  WR1=49.33% | p(H)0=0.503  p(H)1=0.517 | NashDist=0.0170
+  [FP vs FP] Round   1500 | WR0=50.73%  WR1=49.27% | p(H)0=0.499  p(H)1=0.483 | NashDist=0.0173
+  [FP vs FP] Round   1800 | WR0=49.56%  WR1=50.44% | p(H)0=0.488  p(H)1=0.504 | NashDist=0.0130
+  [FP vs FP] Round   2000 | WR0=49.85%  WR1=50.15% | p(H)0=0.491  p(H)1=0.493 | NashDist=0.0110
+
+  Running: IQL vs IQL
+  [IQL vs IQL] Round    300 | WR0=51.33%  WR1=48.67% | p(H)0=0.497  p(H)1=0.483 | NashDist=0.0170
+  [IQL vs IQL] Round    600 | WR0=48.17%  WR1=51.83% | p(H)0=0.472  p(H)1=0.500 | NashDist=0.0283
+  [IQL vs IQL] Round    900 | WR0=49.33%  WR1=50.67% | p(H)0=0.483  p(H)1=0.508 | NashDist=0.0184
+  [IQL vs IQL] Round   1200 | WR0=48.92%  WR1=51.08% | p(H)0=0.484  p(H)1=0.503 | NashDist=0.0162
+  [IQL vs IQL] Round   1500 | WR0=49.27%  WR1=50.73% | p(H)0=0.487  p(H)1=0.511 | NashDist=0.0166
+  [IQL vs IQL] Round   1800 | WR0=49.56%  WR1=50.44% | p(H)0=0.489  p(H)1=0.510 | NashDist=0.0149
+  [IQL vs IQL] Round   2000 | WR0=49.70%  WR1=50.30% | p(H)0=0.488  p(H)1=0.510 | NashDist=0.0156
+
+  Running: MMQ vs MMQ
+  [MMQ vs MMQ] Round    300 | WR0=52.33%  WR1=47.67% | p(H)0=0.537  p(H)1=0.513 | NashDist=0.0390
+  [MMQ vs MMQ] Round    600 | WR0=50.00%  WR1=50.00% | p(H)0=0.518  p(H)1=0.515 | NashDist=0.0237
+  [MMQ vs MMQ] Round    900 | WR0=51.11%  WR1=48.89% | p(H)0=0.510  p(H)1=0.510 | NashDist=0.0141
+  [MMQ vs MMQ] Round   1200 | WR0=51.33%  WR1=48.67% | p(H)0=0.512  p(H)1=0.512 | NashDist=0.0165
+  [MMQ vs MMQ] Round   1500 | WR0=51.33%  WR1=48.67% | p(H)0=0.518  p(H)1=0.509 | NashDist=0.0200
+  [MMQ vs MMQ] Round   1800 | WR0=50.39%  WR1=49.61% | p(H)0=0.521  p(H)1=0.506 | NashDist=0.0220
+  [MMQ vs MMQ] Round   2000 | WR0=50.35%  WR1=49.65% | p(H)0=0.525  p(H)1=0.507 | NashDist=0.0261
+
+  Running: IQL vs FP
+  [IQL vs FP] Round    300 | WR0=58.67%  WR1=41.33% | p(H)0=0.500  p(H)1=0.373 | NashDist=0.1267
+  [IQL vs FP] Round    600 | WR0=61.17%  WR1=38.83% | p(H)0=0.500  p(H)1=0.452 | NashDist=0.0483
+  [IQL vs FP] Round    900 | WR0=62.56%  WR1=37.44% | p(H)0=0.499  p(H)1=0.460 | NashDist=0.0400
+  [IQL vs FP] Round   1200 | WR0=63.67%  WR1=36.33% | p(H)0=0.501  p(H)1=0.468 | NashDist=0.0325
+  [IQL vs FP] Round   1500 | WR0=64.13%  WR1=35.87% | p(H)0=0.499  p(H)1=0.473 | NashDist=0.0273
+  [IQL vs FP] Round   1800 | WR0=64.78%  WR1=35.22% | p(H)0=0.500  p(H)1=0.478 | NashDist=0.0222
+  [IQL vs FP] Round   2000 | WR0=64.80%  WR1=35.20% | p(H)0=0.500  p(H)1=0.480 | NashDist=0.0200
+
+  Running: MMQ vs FP
+  [MMQ vs FP] Round    300 | WR0=52.33%  WR1=47.67% | p(H)0=0.497  p(H)1=0.440 | NashDist=0.0601
+  [MMQ vs FP] Round    600 | WR0=51.17%  WR1=48.83% | p(H)0=0.483  p(H)1=0.552 | NashDist=0.0543
+  [MMQ vs FP] Round    900 | WR0=51.56%  WR1=48.44% | p(H)0=0.497  p(H)1=0.701 | NashDist=0.2011
+  [MMQ vs FP] Round   1200 | WR0=50.58%  WR1=49.42% | p(H)0=0.492  p(H)1=0.776 | NashDist=0.2760
+  [MMQ vs FP] Round   1500 | WR0=50.27%  WR1=49.73% | p(H)0=0.491  p(H)1=0.821 | NashDist=0.3208
+  [MMQ vs FP] Round   1800 | WR0=49.83%  WR1=50.17% | p(H)0=0.489  p(H)1=0.851 | NashDist=0.3507
+  [MMQ vs FP] Round   2000 | WR0=49.70%  WR1=50.30% | p(H)0=0.488  p(H)1=0.866 | NashDist=0.3657
+
+  Running: IQL vs MMQ
+  [IQL vs MMQ] Round    300 | WR0=47.67%  WR1=52.33% | p(H)0=0.517  p(H)1=0.500 | NashDist=0.0167
+  [IQL vs MMQ] Round    600 | WR0=50.00%  WR1=50.00% | p(H)0=0.400  p(H)1=0.483 | NashDist=0.1014
+  [IQL vs MMQ] Round    900 | WR0=48.89%  WR1=51.11% | p(H)0=0.467  p(H)1=0.500 | NashDist=0.0333
+  [IQL vs MMQ] Round   1200 | WR0=48.67%  WR1=51.33% | p(H)0=0.497  p(H)1=0.502 | NashDist=0.0037
+  [IQL vs MMQ] Round   1500 | WR0=48.73%  WR1=51.27% | p(H)0=0.490  p(H)1=0.504 | NashDist=0.0108
+  [IQL vs MMQ] Round   1800 | WR0=49.11%  WR1=50.89% | p(H)0=0.442  p(H)1=0.494 | NashDist=0.0587
+  [IQL vs MMQ] Round   2000 | WR0=49.35%  WR1=50.65% | p(H)0=0.424  p(H)1=0.498 | NashDist=0.0760
+
+==============================================================================
+  MATCHING PENNIES — SIMULATION REPORT
+==============================================================================
+  Rounds : 2000
+  Payoff : (H,H)=(+1,-1)  (H,T)=(-1,+1)  (T,H)=(-1,+1)  (T,T)=(+1,-1)
+  Nash EQ: Mixed — both play p(H)=0.5  |  Avg reward = 0 for both
+==============================================================================
+
+  ┌─ FP vs FP
+  │  Agent0 (FP(id=0))  WinRate=49.85%  AvgRew=-0.0030  p(H)=0.491  (tail: 0.468)
+  │  Agent1 (FP(id=1))  WinRate=50.15%  AvgRew=+0.0030  p(H)=0.493  (tail: 0.405)
+  │  Joint: HH=24.15%  HT=25.00%  TH=25.15%  TT=25.70%
+  │  Nash Dist (overall): 0.0110
+  │  Nash Dist (tail)  : 0.1004
+  │  Exploitability    : A0=0.1776  A1=0.0773
+  └  Near Nash — exploit: A0=0.178 A1=0.077
+
+  ┌─ IQL vs IQL
+  │  Agent0 (IQL(id=0))  WinRate=49.70%  AvgRew=-0.0060  p(H)=0.488  (tail: 0.490)
+  │  Agent1 (IQL(id=1))  WinRate=50.30%  AvgRew=+0.0060  p(H)=0.510  (tail: 0.510)
+  │  Joint: HH=24.75%  HT=24.05%  TH=26.25%  TT=24.95%
+  │  Nash Dist (overall): 0.0156
+  │  Nash Dist (tail)  : 0.0141
+  │  Exploitability    : A0=0.0204  A1=0.0196
+  └  Converged to Nash EQ (50/50 mix)
+
+  ┌─ MMQ vs MMQ
+  │  Agent0 (MMQ(id=0))  WinRate=50.35%  AvgRew=+0.0070  p(H)=0.525  (tail: 0.550)
+  │  Agent1 (MMQ(id=1))  WinRate=49.65%  AvgRew=-0.0070  p(H)=0.507  (tail: 0.497)
+  │  Joint: HH=26.80%  HT=25.70%  TH=23.95%  TT=23.55%
+  │  Nash Dist (overall): 0.0261
+  │  Nash Dist (tail)  : 0.0501
+  │  Exploitability    : A0=0.0055  A1=0.0995
+  └  Very near Nash EQ
+
+  ┌─ IQL vs FP
+  │  Agent0 (IQL(id=0))  WinRate=64.80%  AvgRew=+0.2960  p(H)=0.500  (tail: 0.500)
+  │  Agent1 (FP(id=1))  WinRate=35.20%  AvgRew=-0.2960  p(H)=0.480  (tail: 0.500)
+  │  Joint: HH=31.40%  HT=18.60%  TH=16.60%  TT=33.40%
+  │  Nash Dist (overall): 0.0200
+  │  Nash Dist (tail)  : 0.0000
+  │  Exploitability    : A0=0.0000  A1=0.0000
+  └  Converged to Nash EQ (50/50 mix)
+
+  ┌─ MMQ vs FP
+  │  Agent0 (MMQ(id=0))  WinRate=49.70%  AvgRew=-0.0060  p(H)=0.488  (tail: 0.482)
+  │  Agent1 (FP(id=1))  WinRate=50.30%  AvgRew=+0.0060  p(H)=0.866  (tail: 1.000)
+  │  Joint: HH=42.55%  HT=6.30%  TH=44.00%  TT=7.15%
+  │  Nash Dist (overall): 0.3657
+  │  Nash Dist (tail)  : 0.5003
+  │  Exploitability    : A0=1.0350  A1=0.0000
+  └  Far from Nash — exploit: A0=1.035 A1=0.000
+
+  ┌─ IQL vs MMQ
+  │  Agent0 (IQL(id=0))  WinRate=49.35%  AvgRew=-0.0130  p(H)=0.424  (tail: 0.150)
+  │  Agent1 (MMQ(id=1))  WinRate=50.65%  AvgRew=+0.0130  p(H)=0.498  (tail: 0.510)
+  │  Joint: HH=20.80%  HT=21.60%  TH=29.05%  TT=28.55%
+  │  Nash Dist (overall): 0.0760
+  │  Nash Dist (tail)  : 0.3501
+  │  Exploitability    : A0=0.0340  A1=0.6860
+  └  Far from Nash — exploit: A0=0.034 A1=0.686
+
+==============================================================================
