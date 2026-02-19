@@ -1,0 +1,130 @@
+==============================================================================
+  STOCHASTIC SNAKES & LADDERS SIMULATION
+  Board: 100 cells | 7 snakes | 9 ladders | 6 power tiles
+  Power tiles: [15, 30, 45, 60, 75, 90]
+  Nash EQ: Always choose Best-of-Two on power tiles (dominant strategy)
+==============================================================================
+
+  Running: FP vs FP
+  [FP vs FP] Ep   200 | WR0=51.00% WR1=49.00%
+  [FP vs FP] Ep   400 | WR0=51.00% WR1=49.00%
+  [FP vs FP] Ep   600 | WR0=50.33% WR1=49.67%
+  [FP vs FP] Ep   800 | WR0=51.62% WR1=48.38%
+  [FP vs FP] Ep  1000 | WR0=52.90% WR1=47.10%
+  [FP vs FP] Ep  1200 | WR0=51.75% WR1=48.25%
+  [FP vs FP] Ep  1400 | WR0=51.79% WR1=48.21%
+  [FP vs FP] Ep  1600 | WR0=51.81% WR1=48.19%
+  [FP vs FP] Ep  1800 | WR0=51.39% WR1=48.61%
+  [FP vs FP] Ep  2000 | WR0=51.35% WR1=48.65%
+
+  Running: IQL vs IQL
+  [IQL vs IQL] Ep   200 | WR0=50.00% WR1=50.00%
+  [IQL vs IQL] Ep   400 | WR0=47.25% WR1=52.75%
+  [IQL vs IQL] Ep   600 | WR0=47.83% WR1=52.17%
+  [IQL vs IQL] Ep   800 | WR0=48.00% WR1=52.00%
+  [IQL vs IQL] Ep  1000 | WR0=48.20% WR1=51.80%
+  [IQL vs IQL] Ep  1200 | WR0=48.42% WR1=51.58%
+  [IQL vs IQL] Ep  1400 | WR0=48.00% WR1=52.00%
+  [IQL vs IQL] Ep  1600 | WR0=48.62% WR1=51.38%
+  [IQL vs IQL] Ep  1800 | WR0=49.28% WR1=50.72%
+  [IQL vs IQL] Ep  2000 | WR0=49.15% WR1=50.85%
+
+  Running: MMQ vs MMQ
+  [MMQ vs MMQ] Ep   200 | WR0=52.50% WR1=47.50%
+  [MMQ vs MMQ] Ep   400 | WR0=53.75% WR1=46.25%
+  [MMQ vs MMQ] Ep   600 | WR0=54.17% WR1=45.83%
+  [MMQ vs MMQ] Ep   800 | WR0=54.87% WR1=45.12%
+  [MMQ vs MMQ] Ep  1000 | WR0=53.30% WR1=46.70%
+  [MMQ vs MMQ] Ep  1200 | WR0=52.17% WR1=47.83%
+  [MMQ vs MMQ] Ep  1400 | WR0=51.29% WR1=48.71%
+  [MMQ vs MMQ] Ep  1600 | WR0=50.81% WR1=49.19%
+  [MMQ vs MMQ] Ep  1800 | WR0=50.72% WR1=49.28%
+  [MMQ vs MMQ] Ep  2000 | WR0=51.15% WR1=48.85%
+
+  Running: IQL vs FP
+  [IQL vs FP] Ep   200 | WR0=46.00% WR1=54.00%
+  [IQL vs FP] Ep   400 | WR0=49.25% WR1=50.75%
+  [IQL vs FP] Ep   600 | WR0=49.83% WR1=50.17%
+  [IQL vs FP] Ep   800 | WR0=51.00% WR1=49.00%
+  [IQL vs FP] Ep  1000 | WR0=50.50% WR1=49.50%
+  [IQL vs FP] Ep  1200 | WR0=49.92% WR1=50.08%
+  [IQL vs FP] Ep  1400 | WR0=49.86% WR1=50.14%
+  [IQL vs FP] Ep  1600 | WR0=50.94% WR1=49.06%
+  [IQL vs FP] Ep  1800 | WR0=51.56% WR1=48.44%
+  [IQL vs FP] Ep  2000 | WR0=51.45% WR1=48.55%
+
+  Running: MMQ vs FP
+  [MMQ vs FP] Ep   200 | WR0=51.50% WR1=48.50%
+  [MMQ vs FP] Ep   400 | WR0=51.75% WR1=48.25%
+  [MMQ vs FP] Ep   600 | WR0=51.67% WR1=48.33%
+  [MMQ vs FP] Ep   800 | WR0=50.88% WR1=49.12%
+  [MMQ vs FP] Ep  1000 | WR0=50.90% WR1=49.10%
+  [MMQ vs FP] Ep  1200 | WR0=51.25% WR1=48.75%
+  [MMQ vs FP] Ep  1400 | WR0=50.79% WR1=49.21%
+  [MMQ vs FP] Ep  1600 | WR0=50.94% WR1=49.06%
+  [MMQ vs FP] Ep  1800 | WR0=50.94% WR1=49.06%
+  [MMQ vs FP] Ep  2000 | WR0=50.80% WR1=49.20%
+
+  Running: IQL vs MMQ
+  [IQL vs MMQ] Ep   200 | WR0=56.50% WR1=43.50%
+  [IQL vs MMQ] Ep   400 | WR0=54.25% WR1=45.75%
+  [IQL vs MMQ] Ep   600 | WR0=53.67% WR1=46.33%
+  [IQL vs MMQ] Ep   800 | WR0=52.38% WR1=47.62%
+  [IQL vs MMQ] Ep  1000 | WR0=51.90% WR1=48.10%
+  [IQL vs MMQ] Ep  1200 | WR0=52.08% WR1=47.92%
+  [IQL vs MMQ] Ep  1400 | WR0=51.57% WR1=48.43%
+  [IQL vs MMQ] Ep  1600 | WR0=51.62% WR1=48.38%
+  [IQL vs MMQ] Ep  1800 | WR0=50.67% WR1=49.33%
+  [IQL vs MMQ] Ep  2000 | WR0=50.50% WR1=49.50%
+
+==============================================================================
+  SNAKES & LADDERS — SIMULATION REPORT
+==============================================================================
+  Episodes : 2000
+  Board    : 100 cells, 7 snakes, 9 ladders, 6 power tiles
+  Nash EQ  : Always choose Best-of-Two on power tiles (dominant strategy)
+==============================================================================
+
+  ┌─ FP vs FP
+  │  Agent0 (FP(id=0))  Wins= 1027  WinRate=51.35%  (tail=49.50%)  Aggr=65.64%
+  │  Agent1 (FP(id=1))  Wins=  973  WinRate=48.65%  (tail=50.50%)  Aggr=66.08%
+  │  Avg turns/episode : 26.1
+  │  Nash Dist (overall): 0.4828
+  └  Nash Dist (tail)  : 0.4799  → Partial adoption of dominant strategy
+
+  ┌─ IQL vs IQL
+  │  Agent0 (IQL(id=0))  Wins=  983  WinRate=49.15%  (tail=51.25%)  Aggr=48.59%
+  │  Agent1 (IQL(id=1))  Wins= 1017  WinRate=50.85%  (tail=48.75%)  Aggr=50.98%
+  │  Avg turns/episode : 26.9
+  │  Nash Dist (overall): 0.7104
+  └  Nash Dist (tail)  : 0.7254  → Partial adoption of dominant strategy
+
+  ┌─ MMQ vs MMQ
+  │  Agent0 (MMQ(id=0))  Wins= 1023  WinRate=51.15%  (tail=52.50%)  Aggr=49.64%
+  │  Agent1 (MMQ(id=1))  Wins=  977  WinRate=48.85%  (tail=47.50%)  Aggr=49.28%
+  │  Avg turns/episode : 26.7
+  │  Nash Dist (overall): 0.7147
+  └  Nash Dist (tail)  : 0.7072  → Partial adoption of dominant strategy
+
+  ┌─ IQL vs FP
+  │  Agent0 (IQL(id=0))  Wins= 1029  WinRate=51.45%  (tail=53.50%)  Aggr=49.23%
+  │  Agent1 (FP(id=1))  Wins=  971  WinRate=48.55%  (tail=46.50%)  Aggr=67.00%
+  │  Avg turns/episode : 26.6
+  │  Nash Dist (overall): 0.6056
+  └  Nash Dist (tail)  : 0.5944  → Partial adoption of dominant strategy
+
+  ┌─ MMQ vs FP
+  │  Agent0 (MMQ(id=0))  Wins= 1016  WinRate=50.80%  (tail=50.25%)  Aggr=51.19%
+  │  Agent1 (FP(id=1))  Wins=  984  WinRate=49.20%  (tail=49.75%)  Aggr=64.25%
+  │  Avg turns/episode : 26.7
+  │  Nash Dist (overall): 0.6050
+  └  Nash Dist (tail)  : 0.6073  → Partial adoption of dominant strategy
+
+  ┌─ IQL vs MMQ
+  │  Agent0 (IQL(id=0))  Wins= 1010  WinRate=50.50%  (tail=46.00%)  Aggr=48.83%
+  │  Agent1 (MMQ(id=1))  Wins=  990  WinRate=49.50%  (tail=54.00%)  Aggr=49.83%
+  │  Avg turns/episode : 26.5
+  │  Nash Dist (overall): 0.7166
+  └  Nash Dist (tail)  : 0.7291  → Partial adoption of dominant strategy
+
+==============================================================================
